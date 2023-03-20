@@ -1,0 +1,22 @@
+{
+  "name": "minting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "app": "ts-node ./app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/buffer-layout": "^4.0.1",
+    "@solana/spl-token": "^0.3.7",
+    "@solana/web3.js": "^1.74.0",
+    "mz": "^2.7.0",
+    "ts-node": "^10.9.1",
+    "yaml": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/mz": "^2.7.4"
+  }
+}
